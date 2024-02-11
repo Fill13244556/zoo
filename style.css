@@ -194,20 +194,34 @@ margin-left: 16px;
   width: 366px;
   height: 426px;
   cursor: pointer;
-  transition: 1s; 
 }
 .card1 p:not(:last-child){
   margin-left: 16px;
   margin-top: 8px; 
 }
 
-.card1:hover{ 
-  transform: scale(1.1); 
+/*----------------------------icon_card(food)--------------*/ 
+.icon_card{ 
+  margin-left: 120px;
+  margin-top: 13px; 
 }
-.pet__food{ 
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
+.icon_card2{ 
+  margin-left: 180px; 
+  margin-top: 13px; 
+}
+
+.icon_card3{ 
+  margin-left: 100px; 
+  margin-top:13px;
+}
+.icon_card4{ 
+  margin-left: 160px; 
+  margin-top: 13px;
+}
+
+.card_info:nth-last-child(-n + 2){ 
+    
+    display: flex;
 }
 /*------------------------------*/
 .arrow_1{
@@ -234,16 +248,13 @@ justify-content: end;
   width: 366px;
   height: 426px;
   cursor: pointer;
-  transition: 1s; 
 }
 
 .card2 p:not(:last-child){
   margin-left: 16px;
   margin-top: 8px; 
 }
-.card2:hover{ 
- transform: scale(1.1);
-}
+
 /*----------------------------------*/
 .card3{
   margin-top: 180px;
@@ -253,15 +264,11 @@ justify-content: end;
   width: 366px;
   height: 426px;
   cursor: pointer;
-  transition: 1s; 
 }
 
 .card3 p:not(:last-child){
   margin-left: 16px;
   margin-top: 8px; 
-}
-.card3:hover{ 
-  transform: scale(1.1); 
 }
 /*--------------------------------------*/
 .card4{
@@ -271,16 +278,13 @@ justify-content: end;
   width: 366px;
   height: 426px;
   cursor: pointer;
-  transition: 1s; 
 }
 
 .card4 p:not(:last-child){
   margin-left: 16px;
   margin-top: 8px; 
 }
-.card4:hover{ 
- transform: scale(1.1);
-}
+
 /*--------------------------------------*/
 .card5{
   margin-top: 20px;
@@ -290,16 +294,13 @@ justify-content: end;
   width: 366px;
   height: 426px;
   cursor: pointer;
-  transition: 1s;
 }
 
 .card5 p:not(:last-child){
   margin-left: 16px;
   margin-top: 8px; 
 }
-.card5:hover{ 
-  transform: scale(1.1);
-}
+
 /*------------------------------------*/
 .card6{
   margin-top: 20px;
@@ -309,15 +310,10 @@ justify-content: end;
   width: 366px;
   height: 426px;
   cursor: pointer;
-  transition: 1s;
-  
 }
 .card6 p:not(:last-child){
   margin-left: 16px;
   margin-top: 8px; 
-}
-.card6:hover{ 
-  transform: scale(1.1) ;
 }
 
 .arrow_left{ 
@@ -334,23 +330,22 @@ justify-content: end;
   cursor: pointer;
   margin-top: 80px; 
   margin-bottom: 100px;
-  margin-left: 359px;
+  margin-left: 420px;
   }
 
-  .palm{ 
-    background-image: url("./assets/images/palm_foto.png");
-    background-repeat: no-repeat;
-    background-position: bottom left; 
-    height: 460px;
-   }
+.about_flower1{
+  background-image: url("./assets/images/palm_foto.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
 
-   .palm_2{
-    background-image: url("./assets/images/strelitzia 1.png");
-    background-repeat: no-repeat;
-    height: 275px;
-    background-position: right;
-   }
-
+}
+.about_flower2{
+  background-image: url("./assets/images/strelitzia.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+ 
+}
+/*------------------------------PICK AND FEED--------------------------------------*/ 
    .pick_feed{ 
     background-color: #FED290;
     height: 1004px;
@@ -502,76 +497,242 @@ height: 244px;
       margin-left: 431px;
       cursor: pointer; 
     }
-.Testimonials{
-  padding-top: 94px;
-}
+    .Testimonials{ 
+      padding-top: 94px; 
+      padding-bottom: 294px;  
+      } 
+       
+      .testi_text{  
+      color: #333B41; 
+      text-align: center; 
+      font-size: 36px; 
+      font-style: normal; 
+      font-weight: 400; 
+      line-height: 130%; /* 46.8px */ 
+      } 
+      .review_list{  
+      display:flex;  
+       
+      } 
+       
+        .review_1{  
+      width: 268px; 
+      height: 391px; 
+      border-radius: 20px; 
+      border: 2px solid var(--pink_gradient, rgba(254, 189, 171, 0.74)); 
+      background: var(--gray_light, #F1F3F2); 
+      margin-top:47px; 
+      transition: 1s; 
+      } 
+       
+      .review_1:hover{  
+        transform: scale(1.2); 
+         
+      } 
+       
+       
+        .review_text{ 
+      color: var(--gray, #767474); 
+      font-size: 15px; 
+      font-style: normal; 
+      font-weight: 300; 
+      line-height: 120%;  
+      margin-top:11px; 
+      margin-left: 16px; 
+      margin-bottom: 19px; 
+        } 
+       
+        .user_icon{  
+          margin-left: 16px; 
+          margin-top: 15px; 
+        } 
+       
+        .user_text{  
+      color: #000; 
+      font-size: 16px; 
+      font-style: normal; 
+      font-weight: 400; 
+      line-height: 120%;  
+      margin-top: 15px; 
+      margin-left:10px; 
+      padding-right: 108px; 
+        } 
+       
+        .review1_content{ 
+          display: flex; 
+          flex-flow: wrap ; 
+           
+        } 
+       
+        .user_content{  
+      color: var(--Gray-4, #BDBDBD); 
+      font-size: 15px; 
+      font-style: normal; 
+      font-weight: 300; 
+      line-height: 120%; 
+      margin-left:63px; 
+       
+        } 
+       
+        .review_2{  
+          width: 268px; 
+      height: 391px; 
+      border-radius: 20px; 
+      border: 2px solid var(--pink_gradient, rgba(254, 189, 171, 0.74)); 
+      background: var(--gray_light, #F1F3F2); 
+      margin-top:47px; 
+      transition: 1s; 
+      margin-left: 30px; 
+        } 
+        .review_2:hover{ 
+          transform: scale(1.2); 
+        } 
+        .review2_content{ 
+          display: flex; 
+          flex-wrap: wrap; 
+           
+        } 
+        .user_icon2{  
+          margin-left: 16px; 
+          margin-top: 15px; 
+        } 
+        .user_text2{  
+      color: rgb(0, 0, 0); 
+      font-size: 16px; 
+      font-weight: 400; 
+      line-height: 120%; 
+      letter-spacing: 0%; 
+      text-align: left; 
+      margin-top: 15px;  
+      margin-left: 10px; 
+        } 
+       
+        .user_content2{ 
+      color: rgb(189, 189, 189); 
+      font-size: 15px; 
+      font-weight: 300; 
+      line-height: 120%; 
+      letter-spacing: 0%; 
+      text-align: left; 
+      margin-left: 63px; 
+        } 
+       
+       
+        .review_text2{  
+      margin-top: 10px; 
+      margin-right: 15px; 
+      margin-left: 16px;  
+      color: rgb(118, 116, 116); 
+      font-size: 15px; 
+      font-weight: 300; 
+      line-height: 120%; 
+      letter-spacing: 0%; 
+      text-align: left; 
+        } 
+       
+        .review_3{  
+          width: 268px; 
+          height: 391px; 
+          border-radius: 20px; 
+          border: 2px solid var(--pink_gradient, rgba(254, 189, 171, 0.74)); 
+          background: var(--gray_light, #F1F3F2); 
+          margin-top:47px; 
+          transition: 1s; 
+          margin-left: 30px; 
+        } 
+       
+        .review_3:hover{ 
+          transform: scale(1.2); 
+        } 
+       
+        .review3_content{ 
+          display: flex; 
+          flex-wrap: wrap; 
+           
+        } 
+        .user_icon3{  
+          margin-left: 16px; 
+          margin-top: 15px; 
+        } 
+        .user_text3{  
+          color: rgb(0, 0, 0); 
+          font-size: 16px; 
+          font-weight: 400; 
+          line-height: 120%; 
+          letter-spacing: 0%; 
+          text-align: left; 
+          margin-top: 15px;  
+          margin-left: 10px; 
+            } 
+            .user_content3{ 
+              color: rgb(189, 189, 189); 
+              font-size: 15px; 
+              font-weight: 300; 
+              line-height: 120%; 
+              letter-spacing: 0%; 
+              text-align: left; 
+              margin-left: 63px; 
+                } 
+              .review_text3{ 
+              color: var(--gray, #767474); 
+              font-size: 15px; 
+              font-style: normal; 
+              font-weight: 300; 
+              line-height: 120%;  
+              margin-top:11px; 
+              margin-left: 16px; 
+              margin-bottom: 19px; 
+               } 
+       
+               .review_4{  
+              width: 268px; 
+            height: 391px; 
+            border-radius: 20px; 
+            border: 2px solid var(--pink_gradient, rgba(254, 189, 171, 0.74)); 
+            background: var(--gray_light, #F1F3F2); 
+            margin-top:47px; 
+            transition: 1s; 
+            margin-left: 30px; 
+              } 
+              .review_4:hover{  
+                transform: scale(1.2);  
+              } 
+              .review4_content{ 
+                display: flex; 
+                flex-wrap: wrap; 
+                 
+              } 
+              .user_icon4{  
+                margin-left: 16px; 
+                margin-top: 15px; 
+              } 
+          .user_text4{  
+          color: rgb(0, 0, 0); 
+          font-size: 16px; 
+          font-weight: 400;
+          line-height: 120%; 
+          letter-spacing: 0%; 
+          text-align: left; 
+          margin-top: 15px;  
+          margin-left: 10px; 
+            } 
+          .user_content4{ 
+          color: rgb(189, 189, 189); 
+          font-size: 15px; 
+          font-weight: 300; 
+          line-height: 120%; 
+          letter-spacing: 0%; 
+          text-align: left; 
+          margin-left: 63px; 
+        } 
 
-.testi_text{ 
-color: #333B41;
-text-align: center;
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: 130%; /* 46.8px */
-}
-.review_list{ 
-  display:flex; 
-
-}
-
-    .review_1{ 
-width: 268px;
-height: 391px;
-border-radius: 20px;
-border: 2px solid var(--pink_gradient, rgba(254, 189, 171, 0.74));
-background: var(--gray_light, #F1F3F2);
-margin-top:47px;
-transition: 1s;
-}
-
-.review_1:hover{ 
-    transform: scale(1.1);
-    
-}
-
-
-    .review_text{
-color: var(--gray, #767474);
-font-size: 15px;
-font-style: normal;
-font-weight: 300;
-line-height: 120%; 
-margin-top:11px;
-margin-left: 16px;
-    }
-
-    .user_icon{ 
-      margin-left: 16px;
-      margin-top: 15px;
-    }
-
-    .user_text{ 
-color: #000;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 120%; 
-margin-top: 15px;
-margin-left:10px;
-    }
-
-    .review1_content{
-      display: flex;
-     
-      
-    }
-
-    .user_content{ 
-color: var(--Gray-4, #BDBDBD);
-font-size: 15px;
-font-style: normal;
-font-weight: 300;
-line-height: 120%;
-margin-left: 63px;
-
-    }
+        .review_text4{
+          color: var(--gray, #767474); 
+          font-size: 15px; 
+          font-style: normal; 
+          font-weight: 300; 
+          line-height: 120%;  
+          margin-top:11px; 
+          margin-left: 16px; 
+          margin-bottom: 19px; 
+        }
