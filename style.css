@@ -193,7 +193,7 @@ margin-left: 16px;
   border: 2px solid var(--2, #FA6F32);
   width: 366px;
   height: 426px;
-  cursor: pointer;
+  
 }
 .card1 p:not(:last-child){
   margin-left: 16px;
@@ -247,7 +247,7 @@ justify-content: end;
   border: 2px solid var(--2, #FA6F32);
   width: 366px;
   height: 426px;
-  cursor: pointer;
+  
 }
 
 .card2 p:not(:last-child){
@@ -263,7 +263,7 @@ justify-content: end;
   border: 2px solid var(--2, #FA6F32);
   width: 366px;
   height: 426px;
-  cursor: pointer;
+  
 }
 
 .card3 p:not(:last-child){
@@ -277,7 +277,7 @@ justify-content: end;
   border: 2px solid var(--2, #FA6F32);
   width: 366px;
   height: 426px;
-  cursor: pointer;
+  
 }
 
 .card4 p:not(:last-child){
@@ -293,7 +293,7 @@ justify-content: end;
   border: 2px solid var(--2, #FA6F32);
   width: 366px;
   height: 426px;
-  cursor: pointer;
+  
 }
 
 .card5 p:not(:last-child){
@@ -309,7 +309,7 @@ justify-content: end;
   border: 2px solid var(--2, #FA6F32);
   width: 366px;
   height: 426px;
-  cursor: pointer;
+  
 }
 .card6 p:not(:last-child){
   margin-left: 16px;
@@ -522,12 +522,6 @@ height: 244px;
       border: 2px solid var(--pink_gradient, rgba(254, 189, 171, 0.74)); 
       background: var(--gray_light, #F1F3F2); 
       margin-top:47px; 
-      transition: 1s; 
-      } 
-       
-      .review_1:hover{  
-        transform: scale(1.2); 
-         
       } 
        
        
@@ -581,12 +575,9 @@ height: 244px;
       border: 2px solid var(--pink_gradient, rgba(254, 189, 171, 0.74)); 
       background: var(--gray_light, #F1F3F2); 
       margin-top:47px; 
-      transition: 1s; 
       margin-left: 30px; 
         } 
-        .review_2:hover{ 
-          transform: scale(1.2); 
-        } 
+     
         .review2_content{ 
           display: flex; 
           flex-wrap: wrap; 
@@ -637,13 +628,9 @@ height: 244px;
           border: 2px solid var(--pink_gradient, rgba(254, 189, 171, 0.74)); 
           background: var(--gray_light, #F1F3F2); 
           margin-top:47px; 
-          transition: 1s; 
           margin-left: 30px; 
         } 
        
-        .review_3:hover{ 
-          transform: scale(1.2); 
-        } 
        
         .review3_content{ 
           display: flex; 
@@ -691,12 +678,9 @@ height: 244px;
             border: 2px solid var(--pink_gradient, rgba(254, 189, 171, 0.74)); 
             background: var(--gray_light, #F1F3F2); 
             margin-top:47px; 
-            transition: 1s; 
             margin-left: 30px; 
               } 
-              .review_4:hover{  
-                transform: scale(1.2);  
-              } 
+            
               .review4_content{ 
                 display: flex; 
                 flex-wrap: wrap; 
@@ -736,3 +720,67 @@ height: 244px;
           margin-left: 16px; 
           margin-bottom: 19px; 
         }
+        
+        .scroll_line{
+          display:flex; 
+          justify-content: center;
+          margin-top: 21px;
+        }
+        .line{
+          width: 599px;
+          height: 8px;   
+         box-sizing: border-box;
+          border-radius: 5px;
+          background: rgb(245, 247, 246);
+        }
+
+        .scroll{
+        width: 115.19px;
+        height: 6px;
+        border-radius: 5px;
+        background: rgb(254, 144, 19);
+        }
+
+        .review_button{
+        width: 298px;
+        height: 54px;
+        background: rgb(254, 144, 19);
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 32px; 
+        }
+
+        .button_text{
+          color: rgb(255, 255, 255);
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 140%;
+          text-align: center;
+          text-transform: uppercase;
+          padding-top: 16px; 
+        }
+
+       .testimonials_flower{
+          background-image: url("./assets/images/leav_foto.png");
+          background-repeat: no-repeat;
+          background-position: right bottom;
+         
+
+        }
+/*---------------------------TESTIMONIALS------------------------------*/
+.footer{ 
+  height: 443px;   
+  background: rgb(17, 17, 21);
+}
+
+.footer_logo{
+  padding-top: 42px;
+}
+.footer_button{
+  width: 298px;
+  height: 54px;
+  background: rgb(254, 144, 19);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 83px; 
+  }
