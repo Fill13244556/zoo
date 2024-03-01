@@ -105,6 +105,8 @@ body {
   text-transform: uppercase;
 }
 
+
+
 .main_content{ 
   margin-top: 160px;
   display: flex;
@@ -329,7 +331,7 @@ justify-content: end;
   justify-content: center;
   cursor: pointer;
   margin-top: 80px; 
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   margin-left: 420px;
   }
 
@@ -337,13 +339,14 @@ justify-content: end;
   background-image: url("./assets/images/palm_foto.png");
   background-repeat: no-repeat;
   background-position: left bottom;
+  height: 1300px;
 
 }
 .about_flower2{
   background-image: url("./assets/images/strelitzia.png");
   background-repeat: no-repeat;
   background-position: right bottom;
- 
+  height: 1300px;
 }
 /*------------------------------PICK AND FEED--------------------------------------*/ 
    .pick_feed{ 
@@ -879,4 +882,23 @@ font-weight: 250;
 line-height: 130%;
 letter-spacing: 0%;
   color: rgb(255, 255, 255);
+}
+/*-------------------DONATE-----------------------*/
+.header__bottom-donate {
+  width: 1600px;
+  height: 390px;
+}
+.don_pick_and_feed{ 
+  width: 1600px;
+height: 1482px;
+background-color: #FED290;
+}
+.donate_text{ 
+  padding-top: 40px; 
+  color: rgb(255, 255, 255);
+font-size: 30px;
+font-weight: 400;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: left;
 }
