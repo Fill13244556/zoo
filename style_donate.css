@@ -1,0 +1,93 @@
+/*-------------------DONATE-----------------------*/
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  .container {
+    max-width: 1199px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .header__top {
+
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    z-index: 999;
+  }
+  .header__top-inner {
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__top-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 63px;
+  }
+  .header__menu-item:not(:last-child) {
+    margin-right: 58px;
+  }
+  .header__menu-link {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .header__menu-item.active .header__menu-link {
+    color: #fe9013;
+  }
+.header__bottom-donate {
+    width: 1600px;
+    height: 390px;
+  }
+  .don_pick_and_feed{ 
+    width: 1600px;
+  height: 1482px;
+  background-color: #FED290;
+  }
+  .donate_text{ 
+    padding-top: 40px; 
+    color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+  }
+  .donate_subtitle{
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 500;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 10px;
+  }
+
+  .donate_title{ 
+color: rgb(254, 144, 19);
+font-size: 36px;
+font-weight: 400;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 40px;
+  }
+
+  .rect{
+    margin-top: 60px;
+width: 1160px;
+height: 964px;
+border-radius: 20px;
+backdrop-filter: blur(4px);
+background: rgba(255, 255, 255, 0.52);
+  }
