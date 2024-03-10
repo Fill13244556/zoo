@@ -91,3 +91,140 @@ border-radius: 20px;
 backdrop-filter: blur(4px);
 background: rgba(255, 255, 255, 0.52);
   }
+  .rect_text{ 
+    padding-top: 40px; 
+    color: rgb(254, 144, 19);
+font-size: 48px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+  }
+  .rect_subtitle{
+    margin-top: 20px;
+    margin-left: 92px; 
+color: rgb(51, 59, 65);
+font-size: 24px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+  .donation_number{
+    margin-top: 165px; 
+    margin-left: 366px;
+    width: 41px;
+height: 58px;
+color: rgb(0, 0, 0);
+font-size: 72px;
+font-weight: 500;
+line-height: 80%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+  }
+  .donation_information{ 
+    display:flex;
+  }
+  .x_button{ 
+    margin-top: 190px;
+    margin-left: 20px;
+    
+  }
+  .donation_img{ 
+    margin-top: 60px;
+    margin-left: 64px;
+  }
+.donation_subtitle{
+  color: rgb(51, 59, 65);
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+margin-left: 305px;
+margin-top: 11px;
+}
+
+.line_text{
+  color: rgb(0, 0, 0);
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 98px;
+margin-left: 94px;
+}
+.rectangle{
+  width: 976px;
+height: 27px;
+border-radius: 2px;
+background: rgb(64, 73, 80);
+margin-left: 90px;
+margin-top: 10px;
+}
+.circles{
+  display: flex;
+  padding-top: 8px;
+}
+.circle1{
+  width: 10px;
+height: 10px;
+border-radius: 50%;
+background: rgb(255, 238, 46);
+margin-left: 26px;
+}
+.circle2{ 
+  width: 10px;
+height: 10px;
+border-radius: 50%;
+background: rgb(255, 238, 46);
+margin-left:120px;
+}
+
+.circle3{ 
+  width: 10px;
+height: 10px;
+border-radius: 50%;
+background: rgb(255, 238, 46);
+margin-left:120px;
+}
+
+.circle4{ 
+  width: 10px;
+height: 10px;
+border-radius: 50%;
+background: rgb(255, 238, 46);
+margin-left:120px;
+}
+.circle5{ 
+  width: 10px;
+height: 10px;
+border-radius: 50%;
+background: rgb(255, 238, 46);
+margin-left:120px;
+}
+.circle6{ 
+  width: 10px;
+height: 10px;
+border-radius: 50%;
+background: rgb(255, 238, 46);
+margin-left:120px;
+}
+
+.circle7{ 
+  width: 10px;
+height: 10px;
+border-radius: 50%;
+background: rgb(255, 238, 46);
+margin-left:120px;
+}
+
+.circl8{ 
+  width: 10px;
+height: 10px;
+border-radius: 50%;
+background: rgb(255, 238, 46);
+margin-left:120px;
+}
