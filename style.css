@@ -713,26 +713,44 @@ height: 244px;
           margin-left: 16px; 
           margin-bottom: 19px; 
         }
-        
-        .scroll_line{
-          display:flex; 
-          justify-content: center;
-          margin-top: 21px;
-        }
-        .line{
-          width: 599px;
-          height: 8px;   
-         box-sizing: border-box;
-          border-radius: 5px;
-          background: rgb(245, 247, 246);
-        }
 
-        .scroll{
-        width: 115.19px;
-        height: 6px;
-        border-radius: 5px;
-        background: rgb(254, 144, 19);
+        .review_list2{
+         
+            display:flex;  
+             
+            
         }
+        
+        .range_box {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+          
+          border-radius: 40px;
+      }
+
+      .range {
+        width: 599px;
+        height: 8px;
+          appearance: none;
+          
+          outline: none;
+          border-radius: 5px;
+          overflow: hidden;
+          background: rgb(245, 247, 246);
+      }
+
+      .range::-webkit-slider-thumb {
+          appearance: none;
+          width: 115.19px;
+          height: 6px;
+          border-radius: 5px;
+          
+          background: rgb(254, 144, 19)
+      }
+
 
         .review_button{
         width: 298px;
@@ -742,7 +760,18 @@ height: 244px;
         cursor: pointer;
         margin-top: 32px; 
         }
+        .show {
+        animation: fadeIn 2s alternate;
+    }
 
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
         .button_text{
           color: rgb(255, 255, 255);
           font-size: 16px;
@@ -826,6 +855,7 @@ margin-left: 750px;
   display: flex;
   justify-content: end;
   align-items: end;
+  color: white;
 }
 
 .email{ 
@@ -835,6 +865,7 @@ background-color: rgb(17, 17, 21) ;
 box-sizing: border-box;
 border: 1px solid rgb(75, 146, 0);
 border-radius: 2px ;
+color: white;
 
 }
 
