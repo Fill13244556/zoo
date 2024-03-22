@@ -86,7 +86,7 @@ margin-top: 40px;
   .rect{
     margin-top: 60px;
 width: 1160px;
-height: 964px;
+height: 1019px;
 border-radius: 20px;
 backdrop-filter: blur(4px);
 background: rgba(255, 255, 255, 0.52);
@@ -164,16 +164,27 @@ background: rgb(64, 73, 80);
 margin-left: 90px;
 margin-top: 10px;
 }
+.rectangle_2{ 
+  position: absolute;
+  margin-left: 31px;
+  padding-top: 16px;
+ width: 915px;
+  height: 2px;
+  background: rgb(114, 130, 142);
+}
 .circles{
+  position: absolute;
   display: flex;
   padding-top: 8px;
+  
 }
 .circle1{
   width: 10px;
 height: 10px;
-border-radius: 50%;
+border-radius: 60%;
 background: rgb(255, 238, 46);
 margin-left: 26px;
+cursor: pointer;
 }
 .circle2{ 
   width: 10px;
@@ -181,6 +192,7 @@ height: 10px;
 border-radius: 50%;
 background: rgb(255, 238, 46);
 margin-left:120px;
+cursor: pointer;
 }
 
 .circle3{ 
@@ -189,6 +201,7 @@ height: 10px;
 border-radius: 50%;
 background: rgb(255, 238, 46);
 margin-left:120px;
+cursor: pointer;
 }
 
 .circle4{ 
@@ -197,6 +210,7 @@ height: 10px;
 border-radius: 50%;
 background: rgb(255, 238, 46);
 margin-left:120px;
+cursor: pointer;
 }
 .circle5{ 
   width: 10px;
@@ -204,6 +218,7 @@ height: 10px;
 border-radius: 50%;
 background: rgb(255, 238, 46);
 margin-left:120px;
+cursor: pointer;
 }
 .circle6{ 
   width: 10px;
@@ -211,6 +226,7 @@ height: 10px;
 border-radius: 50%;
 background: rgb(255, 238, 46);
 margin-left:120px;
+cursor: pointer;
 }
 
 .circle7{ 
@@ -219,15 +235,142 @@ height: 10px;
 border-radius: 50%;
 background: rgb(255, 238, 46);
 margin-left:120px;
+cursor: pointer;
 }
 
-.circl8{ 
+.circle8{ 
   width: 10px;
 height: 10px;
 border-radius: 50%;
 background: rgb(255, 238, 46);
 margin-left:120px;
+cursor: pointer;
 }
+
+.money{ 
+  display: flex;
+  color: rgb(51, 59, 65);
+font-size: 26px;
+font-weight: 500;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+text-transform: uppercase;
+}
+
+
+.number1{ 
+  margin-left:90px;
+  margin-top: 6px;
+ 
+}
+.number2{ 
+  margin-left:58px;
+  margin-top: 6px;
+  
+}
+
+.number3{ 
+  margin-left:58px;
+  margin-top: 6px;
+ 
+}
+
+.number4{ 
+  margin-left:58px;
+  margin-top: 6px;
+}
+
+
+.number5{ 
+  margin-left:73px;
+  margin-top: 6px;
+}
+
+.number6{ 
+  margin-left:73px;
+  margin-top: 6px;
+}
+.number7{ 
+  margin-left:73px;
+  margin-top: 6px;
+}
+.number8{ 
+  margin-left:88px;
+  margin-top: 6px;
+}
+
+
+.form2{ 
+ margin-left: 444px; 
+ margin-top: 50px;
+  width: 268px;
+height: 54px;
+box-sizing: border-box;
+border: 1px solid rgb(146, 150, 153);
+border-radius: 2px;
+background-color:   rgba(255, 255, 255, 0.52);
+
+  color: rgb(146, 150, 153);
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.circle_button{ 
+  width: 16px;
+height: 16px;
+border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.52);
+    border: 1px solid rgb(254, 144, 19);
+    cursor: pointer; 
+}
+
+.circle_button-text{ 
+  margin-left: 10px;
+}
+.circle_button2{ 
+  margin-left: 50px;
+  width: 16px;
+height: 16px;
+border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.52);
+    border: 1px solid rgb(254, 144, 19);
+    cursor: pointer; 
+}
+.button_info{ 
+  margin-top: 25px;
+  display: flex;
+  margin-left: 472px;
+}
+
+
+.rect_button{ 
+  width: 298px;
+height: 54px;
+ margin-left: 432px;
+
+  margin-top: 30px;
+  border-radius: 25px;
+background: linear-gradient(121.04deg, rgb(249, 128, 75) -4.058%,rgb(254, 144, 19) 108.987%);
+}
+
+
+.rect_text2{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  color: rgb(51, 59, 65);
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
 .footer{ 
   height: 493px;   
   background: rgb(17, 17, 21);
