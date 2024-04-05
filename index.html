@@ -67,14 +67,14 @@
 
         <div class="about_flower1">
             <div class="about_flower2">
-                <div class="arrows">
+               <!------ <div class="arrows">
                 <div class="arrow_left">
                     <img src="./assets/images/arrow_elips_2.png">
                 </div>
                 <div class="arrow_right">
                     <img src="./assets/images/arrow_elips_1.png">
                 </div>
-            </div>
+            </div> -------> 
        <div class="container">
     <div class="cards_list">
         <div class="card1">
@@ -216,6 +216,7 @@
                 <div class="testi_text"> 
                     <p>Testimonials</p>  
                 </div> 
+                <div class="slider">
                 <div class="review_list"> 
                   <div class="review_1"> 
                     <div class="review1_content"> 
@@ -252,13 +253,13 @@
                   <p class="review_text4">My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. 
                     The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf. 
                     </p> 
+                  </div>
                   </div> 
-                </div> 
-            <div class="scroll_line">
-                <div class="line">
-                     <div class="scroll"></div>
                 </div>
-               </div> 
+                 <div class="range_box">
+                    <input type="range" class="range" id="slider" value="0" min="1" max="20">
+                    
+                </div>
               
                <div class="review_button">  
                 <a href="#" class="review_link"> 
@@ -278,11 +279,10 @@
                 <div class="footer_text">Subscribe to our news</div>
             </div>
             
-            <form class="form" action="javascript:void(0)">
-                
+            <form class="form" id="form_id" method="post" action="" onsubmit="javascript:return validate('form_id','email');">
                 <div class="form-row">
                   <div class="form-col">
-                    <input type="text" class="email" placeholder="Enter your email">
+                    <input type="text" class="email" id="email" placeholder="Enter your email">
                     <span class="error"></span>
                   </div>
                 </div>
