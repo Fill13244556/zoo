@@ -1,57 +1,36 @@
-const slider = document.getElementById('slider');
-const reviews = document.querySelector('.review_list2').children;
 
-slider.addEventListener('input', function() {
-    const value = this.value;
-    for (let i = 0; i < reviews.length; i++) {
-        if (i < value) {
-            reviews[i].classList.add('.review_1');
-        } else {
-            reviews[i].classList.remove('show');
-        }
-    }
-});
+    $(function() {
+        $(".review_list").show(); // Показываем изначально первые 4 отзыва
+
+        $("#slider-range").slider({
+            range: "max",
+            min: 0,
+            max: 10, 
+            value: 0,
+            slide: function(event, ui) {
+                $(".review_list .review").hide();
+                $(".reviews_list .review:lt(" + (ui.value + 4) + ")").show("slide", { direction: "left" }, 500); // Плавное появление следующих отзывов
+            }
+        });
+    });
 
 
-$(function() {
-    $(".btn-submit").on("click", validate);
-   
-    // Validate email
-    function validateEmail(email) {
-      var re = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
-      return re.test(String(email).toLowerCase());
-    }
-     
-    // send form
-    function sendForm() {
-      $(".error").text("Form sending").fadeIn();
-    }
-   
-    // validate email and send form after success validation
-    function validate() {
-      var email = $(".email").val();
-      var $error = $(".error");
-      $error.text("");
-   
-      if (validateEmail(email)) {
-        $error.fadeOut();
-        sendForm();
-      } else {
-        $error.fadeIn();
-        $error.text(email + " is not valid");
+    function validate(form_id,email) {
+      var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+      var address = document.forms[form_id].elements[email].value;
+      if(reg.test(address) == false) {
+         alert('Введите корректный e-mail');
+         return false;
       }
-      return false;
+   }
+   var currentTextId = null;
+   function changeColor(textId) {
+    if (currentTextId) {
+        var prevTextElement = document.getElementById(currentTextId);
+        prevTextElement.style.color = ''; // Возвращаем цвет текста к исходному
     }
-  });
 
-
-
-
-  let button = document.querySelector('.circle_button');
-  let colors = 'orange';
-  let currentColorIndex = 0;
- 
-  button.addEventListener('click', function() {
-      button.className = 'circle_button ' + colors[currentColorIndex];
-      currentColorIndex = (currentColorIndex + 1) % colors.length;
-  });
+    var textElement = document.getElementById(textId);
+    textElement.style.color = 'orange'; // Изменяем цвет текстa
+    currentTextId = textId;
+}
