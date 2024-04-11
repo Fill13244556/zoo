@@ -1,0 +1,450 @@
+/*-------------------DONATE-----------------------*/
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  .container {
+    max-width: 1199px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .header__top {
+
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    z-index: 999;
+  }
+  .header__top-inner {
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__top-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 63px;
+  }
+  .header__menu-item:not(:last-child) {
+    margin-right: 58px;
+  }
+  .header__menu-link {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  .header__menu-item.active .header__menu-link {
+    color: #fe9013;
+  }
+.header__bottom-donate {
+    width: 1600px;
+    height: 390px;
+  }
+  .don_pick_and_feed{ 
+
+  height: 1482px;
+  background-color: #FED290;
+  }
+  .donate_text{ 
+    padding-top: 40px; 
+    color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+  }
+  .donate_subtitle{
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 500;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 10px;
+  }
+
+  .donate_title{ 
+color: rgb(254, 144, 19);
+font-size: 36px;
+font-weight: 400;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 40px;
+  }
+
+  .rect{
+    margin-top: 60px;
+width: 1160px;
+height: 1019px;
+border-radius: 20px;
+backdrop-filter: blur(4px);
+background: rgba(255, 255, 255, 0.52);
+  }
+  .rect_text{ 
+    padding-top: 40px; 
+    color: rgb(254, 144, 19);
+font-size: 48px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+  }
+  .rect_subtitle{
+    margin-top: 20px;
+    margin-left: 92px; 
+color: rgb(51, 59, 65);
+font-size: 24px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+  .donation_number{
+    margin-top: 165px;
+    margin-left: 340px;
+    width: 41px;
+height: 58px;
+color: rgb(0, 0, 0);
+font-size: 72px;
+font-weight: 500;
+line-height: 80%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+  }
+  .donation_information{ 
+    display:flex;
+  }
+  .x_button{ 
+    margin-top: 190px;
+    margin-left: 20px;
+    
+  }
+  .donation_img{ 
+    margin-top: 60px;
+    margin-left: 64px;
+  }
+.donation_subtitle{
+  color: rgb(51, 59, 65);
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+margin-left: 305px;
+margin-top: 11px;
+}
+
+.line_text{
+  color: rgb(0, 0, 0);
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 98px;
+margin-left: 94px;
+}
+.rectangle{
+  width: 976px;
+height: 27px;
+border-radius: 2px;
+background: rgb(64, 73, 80);
+margin-left: 90px;
+margin-top: 10px;
+}
+.rectangle_2{ 
+  position: absolute;
+  margin-left: 31px;
+  padding-top: 16px;
+ width: 915px;
+  height: 2px;
+  background: rgb(114, 130, 142);
+}
+.circles{
+  position: absolute;
+  display: flex;
+  padding-top: 8px;
+}
+.circles:first-child{ 
+  margin-left: 26px;
+} 
+
+
+.circles > .circle:not(:first-child){ 
+  margin-left: 120px;
+}
+.circle{
+  width: 10px;
+height: 10px;
+border-radius: 60%;
+background: rgb(255, 238, 46);
+ 
+cursor: pointer;
+}
+
+
+.money{ 
+  display: flex;
+  color: rgb(51, 59, 65);
+font-size: 26px;
+font-weight: 500;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+text-transform: uppercase;
+}
+
+
+.number1{ 
+  margin-left:90px;
+  margin-top: 6px;
+ 
+}
+.number2{ 
+  margin-left:58px;
+  margin-top: 6px;
+  
+}
+
+.number3{ 
+  margin-left:58px;
+  margin-top: 6px;
+ 
+}
+
+.number4{ 
+  margin-left:58px;
+  margin-top: 6px;
+}
+
+
+.number5{ 
+  margin-left:73px;
+  margin-top: 6px;
+}
+
+.number6{ 
+  margin-left:73px;
+  margin-top: 6px;
+}
+.number7{ 
+  margin-left:73px;
+  margin-top: 6px;
+}
+.number8{ 
+  margin-left:88px;
+  margin-top: 6px;
+}
+
+
+.form2{ 
+ margin-left: 444px; 
+ margin-top: 50px;
+  width: 268px;
+height: 54px;
+box-sizing: border-box;
+border: 1px solid rgb(146, 150, 153);
+border-radius: 2px;
+background-color:   rgba(255, 255, 255, 0.52);
+
+  color: rgb(146, 150, 153);
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.circle_button{ 
+  width: 16px;
+height: 16px;
+border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.52);
+    border: 1px solid rgb(254, 144, 19);
+    cursor: pointer; 
+}
+.circle_button:focus{ 
+background-color: rgb(254, 144, 19);
+}
+
+
+.circle_button-text{ 
+  margin-left: 10px;
+}
+.circle_button2{ 
+  margin-left: 50px;
+  width: 16px;
+height: 16px;
+border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.52);
+    border: 1px solid rgb(254, 144, 19);
+    cursor: pointer; 
+}
+
+.circle_button2:focus{ 
+  background-color: rgb(254, 144, 19);
+}
+.button_info{ 
+  margin-top: 25px;
+  display: flex;
+  margin-left: 472px;
+}
+
+
+.rect_button{ 
+  width: 298px;
+height: 54px;
+ margin-left: 432px;
+
+  margin-top: 30px;
+  border-radius: 25px;
+background: linear-gradient(121.04deg, rgb(249, 128, 75) -4.058%,rgb(254, 144, 19) 108.987%);
+}
+
+
+.rect_text2{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  color: rgb(51, 59, 65);
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.footer{ 
+  height: 493px;   
+  background: rgb(17, 17, 21);
+}
+
+.footer_logo{
+  padding-top: 42px;
+  display:flex; 
+  /*justify-content: space-between;*/
+  
+}
+.footer_button{
+  width: 298px;
+  height: 54px;
+  background: rgb(254, 144, 19);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 36px; 
+  
+  }
+
+  .social_media { 
+  margin-top: 44px; 
+}
+.facebook{ 
+  margin-top: 10px; 
+}
+.twitter{ 
+  margin-top: 10px; 
+}
+.instagram{ 
+  margin-top: 10px; 
+}
+.youtube{ 
+  margin-top: 10px; 
+}
+
+.links{ 
+  display: flex;
+ justify-content: center;
+ list-style-type:none;
+ margin-left: 298px;
+}
+
+.links.li{
+  margin-left: 58px; 
+}
+.footer_text{
+margin-bottom: 14px; 
+color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align:left;
+margin-left: 750px; 
+}
+
+.form{ 
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.email{ 
+width: 228px;
+height: 42px;
+background-color: rgb(17, 17, 21) ;
+box-sizing: border-box;
+border: 1px solid rgb(75, 146, 0);
+border-radius: 2px ;
+color: white;
+
+}
+
+.btn-submit{
+  width: 129px;
+height: 42px;
+box-sizing: border-box;
+border: 1px solid rgb(75, 146, 0);
+border-radius: 5px;
+background: rgb(241, 243, 242);
+margin-left: 10px;
+color: rgb(75, 146, 0);
+}
+
+.text_footer{ 
+ 
+ margin-left: 171px;
+  text-align: right;
+}
+
+.text_footer1{ 
+  
+font-size: 16px;
+font-weight: 250;
+line-height: 130%;
+letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.text_footer2{ 
+  
+font-size: 16px;
+font-weight: 250;
+line-height: 130%;
+letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+}
+
+.button_text{ 
+  color: white;
+  font-size: 16px;
+font-weight: 500;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 16px;
+text-transform: uppercase;
+}
