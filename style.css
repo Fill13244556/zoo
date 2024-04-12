@@ -41,6 +41,9 @@ body {
   font-weight: 500;
   line-height: 140%;
 }
+.header__menu-link:hover {
+  color:  #fe9013;
+}
 .header__menu-item.active .header__menu-link {
   color: #fe9013;
 }
@@ -104,6 +107,10 @@ body {
   line-height: 140%; /* 22.4px */
   text-transform: uppercase;
 }
+.header__button:hover {
+  background: rgb(228, 114, 9);
+}
+
 
 
 
@@ -760,18 +767,10 @@ height: 244px;
         cursor: pointer;
         margin-top: 32px; 
         }
-        .show {
-        animation: fadeIn 2s alternate;
-    }
-
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
-    }
+        .review_button:hover{
+          background: rgb(228, 114, 9);
+          }
+  
         .button_text{
           color: rgb(255, 255, 255);
           font-size: 16px;
@@ -783,13 +782,9 @@ height: 244px;
         }
 
        .testimonials_flower{
-          background-image: url("./assets/images/leav_foto.png");
+          background-image: url('./assets/images/leav_foto.png');
           background-repeat: no-repeat;
           background-position: bottom right;
-          left: 1762.67px;
-right: -463.59px;
-top: 4408.88px;
-bottom: 270.67px;
          
 
         }
@@ -814,6 +809,10 @@ bottom: 270.67px;
   margin-top: 36px; 
   }
 
+  .footer_button:hover{
+    background: rgb(228, 114, 9);
+    }
+  
   .social_media { 
   margin-top: 44px; 
 }
@@ -876,6 +875,7 @@ box-sizing: border-box;
 border: 1px solid rgb(75, 146, 0);
 border-radius: 5px;
 background: rgb(241, 243, 242);
+cursor:pointer;
 margin-left: 10px;
 color: rgb(75, 146, 0);
 }
